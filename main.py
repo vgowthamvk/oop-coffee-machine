@@ -7,6 +7,7 @@ coffee_maker = CoffeeMaker()
 money_machine = MoneyMachine()
 menu = Menu()
 
+
 while is_on:
     choice = input(f"What would you like? ({menu.get_items()}): ")
     if choice == "off":
